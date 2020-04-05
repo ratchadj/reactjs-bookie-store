@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  color: white;
+  background-color: #3d4246;
+  text-decoration: none;
+  margin: 0 0 17.5px;
+  font-family: "Work Sans",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title {
+  color: #3d4246;
+  margin: 0 0 17.5px;
+  font-family: "Work Sans",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 0 5% 0 5%;
+  font-size: 0.6em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.wrapper .img {
+  height: 250px;
+}
+
+.wrapper .readimg {
+  filter: grayscale(100%);
+  height: 250px;
+}
+
+.wrapper .button {
+  color: white;
+  background-color: #3d4246;
+  margin: 2%;
+  padding: 2%;
+  pointer-events: han;
+  cursor: pointer;
+}
