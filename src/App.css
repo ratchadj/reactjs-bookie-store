@@ -40,7 +40,7 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   padding: 20px 10px;
 }
 
@@ -107,4 +107,15 @@
   padding: 2%;
   pointer-events: han;
   cursor: pointer;
+}
+
+#searchInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
 }
