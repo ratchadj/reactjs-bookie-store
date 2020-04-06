@@ -12,7 +12,14 @@ App Functionality :
 In the project directory, you can run:
 
 ### `npm install`
-for install dependency of project
+for install dependency of project (frontend)
 
 ### `npm start`
-for starting project
+for starting project (frontend)
+
+### cd ./api
+### `npm install`
+for install dependency of project (frontend)
+
+### `node server.js`
+for starting project (api)
