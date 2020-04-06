@@ -19,7 +19,7 @@ for starting project (frontend)
 
 ### cd ./api
 ### `npm install`
-for install dependency of project (frontend)
+for install dependency of project (api)
 
 ### `node server.js`
 for starting project (api)
